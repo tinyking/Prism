@@ -1,0 +1,26 @@
+# Xcode 构建产物
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# 代码覆盖率与性能数据
+*.profraw
+*.profdata
+
+# Xcode 用户状态（逐机器生成，不应入库）
+# 注意：已跟踪的 xcschememanagement.plist 不受此规则影响，
+# 如需从仓库移除请单独执行 git rm --cached。
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
